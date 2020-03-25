@@ -1,0 +1,73 @@
+body{
+    background-color: lightsteelblue;
+    font-family: Arial, Helvetica , Helvetica, sans-serif;
+}
+#Title{
+    text-align: center;
+    
+}
+
+#main-button{
+    border: none;
+    margin: 1%;
+    border-radius: 30px;
+    font-size: 24px;
+    size: 10%;
+    display: inline-block;
+    text-decoration: none;
+    background-color: firebrick;
+    color: white;
+    
+}
+.noteHeader{
+    background-color: yellow;
+    width: 100%;
+    padding: 0%;
+    margin-top: 0px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.noteHeader :nth-child(n){
+    padding: 5%;
+    font-size: 10px;
+    margin-top: 0px;
+    align-self: initial;
+    color: black;
+    display: inline-block;
+
+}
+#dragger{
+    border-radius: 10px;
+}
+#dragger :hover{
+    background-color: rgb(165, 165, 38);
+    
+    
+}
+.note{
+    
+    position: absolute;
+    display: inline-block;
+    color: black;
+    background-color: rgb(240, 240, 120);
+    margin: 10px;
+    
+    
+}
+.noteBody{
+ height: 30px;
+}
+
+.input{
+ padding: 0px;
+ margin: 0px;
+ border: none;
+ background-color: rgb(240, 240, 120);
+ height: 100%;
+}
+#noteDiv{
+    border-color: black;
+    height: 100vh;
+    background-color: rgb(121, 137, 156);
+}
