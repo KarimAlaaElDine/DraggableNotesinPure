@@ -1,2 +1,2 @@
-# DraggableNotesinPure
-A small app with drag-able sticky notes made in pure Javascript !
+# Draggable Notes inPure
+A small app with draggable sticky notes made in pure Javascript !
